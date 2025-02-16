@@ -12,6 +12,8 @@ The chosen architecture will make the app easy to scale up, improve maintenance 
 
 ### APIs
 
+- [API-Auth](https://github.com/Peralta-CashFlow/CashFlow-API-Auth);
+
 ## Project Organization
 
 For the project organization we will use [Github Projects](https://github.com/Peralta-CashFlow/.github/projects) to create a kind of Scrum board where we will define the US to be developed and also the tasks
