@@ -8,11 +8,20 @@ With an friendly user interface you will be able to register your incomes and ex
 
 The project is based on microservices architecture where we will have multiple APIs each one with your responsibility strongly defined. 
 
-The chosen architecture will make the app easy to scale up, improve maintenance and make it easier to identify and treat errors.
+The chosen architecture will make the app easy to scale up, improve maintenance and facilitate errors identification and treatment.
 
 ### APIs
 
 - [API-Auth](https://github.com/Peralta-CashFlow/CashFlow-API-Auth);
+
+### UI
+
+- [CashFlow-UI](https://github.com/Peralta-CashFlow/CashFlow-UI);
+
+### Utilities
+
+- [CashFlow-Workflows](https://github.com/Peralta-CashFlow/CashFlow-WorkFlows);
+- [CashFlow-Libraries](https://github.com/Peralta-CashFlow/CashFlow-Libraries);
 
 ## Project Organization
 
