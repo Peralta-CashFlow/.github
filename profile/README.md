@@ -2,9 +2,22 @@
 
 Managing your money has never been easier! CashFlow is a modern and intuitive financial tracking app designed to help you take control of your finances effortlessly.
 
-With an friendly user interface you will be able to register your incomes and expenses and with the help of generated graphics you will be able to understand what is happening on your financial life.
+With a friendly user interface you will be able to register your incomes and expenses and with the help of generated graphics you will be able to understand what is happening on your financial life.
 
-## Project Architecture
+# Summary
+
+- [Project Architecture](#project-architecture)
+  - [APIs](#apis)
+  - [UI](#ui)
+  - [Utilities](#utilities)
+  - [Docker](#docker)
+- [Project Organization](#project-organization)
+    - [Documentation](#documentation)
+    - [Good Practices](#good-practices)
+    - [Technologies](#technologies)
+- [Containerization](#containerization)
+
+# Project Architecture
 
 The project is based on microservices architecture where we will have multiple APIs each one with your responsibility strongly defined. 
 
@@ -23,9 +36,13 @@ The chosen architecture will make the app easy to scale up, improve maintenance 
 - [CashFlow-Workflows](https://github.com/Peralta-CashFlow/CashFlow-WorkFlows);
 - [CashFlow-Libraries](https://github.com/Peralta-CashFlow/CashFlow-Libraries);
 
-## Project Organization
+### Docker
 
-For the project organization we will use [Github Projects](https://github.com/Peralta-CashFlow/.github/projects) to create a kind of Scrum board where we will define the US to be developed and also the tasks
+- [CashFlow-Compose](https://github.com/Peralta-CashFlow/CashFlow-Compose);
+
+# Project Organization
+
+For the project organization we will use [GitHub Projects](https://github.com/Peralta-CashFlow/.github/projects) to create a kind of Scrum board where we will define the US to be developed and also the tasks
 that must be linked to PRs making it easier to track the development evolution.
 
 ## Documentation
@@ -45,7 +62,19 @@ We strongly believe that good practices are the pillar to develop an amazing sol
 ## Technologies
 
 - [JavaScript - React](https://react.dev/);
-- [Java - SpringBoot](https://spring.io/projects/spring-boot)
+- [Java - SpringBoot](https://spring.io/projects/spring-boot);
+- [Docker](https://www.docker.com/);
+- [MySQL](https://www.mysql.com/);
+- [Jenkins](https://www.jenkins.io/);
+- [SonarQube](https://www.sonarsource.com/products/sonarqube);
+- [GitHub Actions](https://github.com/features/actions);
+
+# Containerization
+
+The project is containerized using Docker, which allows for easy deployment and scaling. 
+The Docker Compose file orchestrates the different services, making it simple to run the entire application stack locally or in production.
+
+You can find the Docker Compose file and the documentation to run it in the [CashFlow-Compose](https://github.com/Peralta-CashFlow/CashFlow-Compose) repository.
 
 ## Team
 
