@@ -68,6 +68,8 @@ We strongly believe that good practices are the pillar to develop an amazing sol
 - [Jenkins](https://www.jenkins.io/);
 - [SonarQube](https://www.sonarsource.com/products/sonarqube);
 - [GitHub Actions](https://github.com/features/actions);
+- [Flyway](https://www.red-gate.com/products/flyway/community/);
+- [Grafana](https://grafana.com/);
 
 # Containerization
 
